@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/styles/navigation.css">
+    <link rel="stylesheet" href="../src/styles/footer.css">
+    <link rel = "stylesheet" type="text/css" href="styles/gateway.css">
+    <title>gateway</title>
+</head>
+
+<body>
+    <!--Navigation Bar Starts-->
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>PAY<span>BILL</span></h1>
+            </div> 
+
+            <ul class="navigation">
+                <a href="../src/Home.html"><li>Home</li></a>
+                <a href="../src/Home.html"><li>Services</li></a>
+                <a href="../src/Home.html"><li>Payments</li></a>
+                <a href="../src/Home.html"><li>Reminders</li></a>
+                <a href="../src/eventmanager.html"><li>Event Manager</li></a>
+                <a href="../src/Wallet.html"><li>Wallet</li></a>
+                <a href="../src/Home.html"><li>About Us</li></a>
+                <a href="../src/Home.html"><li>Contact Us</li></a>
+                <a href="../src/Home.html"><li><button>Login</button></li></a>
+                <a href="../src/Home.html"><li><button>Sign Up</button></li></a>
+            </ul>
+        </div>
+    </div>
+		   
+		   <style>
+				fieldset {
+					background-color: #eeeeee;
+				}
+
+				legend {
+					background-color: gray;
+					color: white;
+					padding: 5px 10px;
+				}
+
+				input {
+					margin: 5px;
+				}
+				
+				.search-form {
+					margin-top : 15px ;
+					flaot : right ;
+					margin-right : 15px ;
+				}
+				
+				input [type=text] {
+					padding : 7px ;
+					border : none ; 
+					font-size : 16px ;
+					font-family : sans-serif ;
+				}
+				
+				button {
+					float : center ;
+					background : green ;
+					color : white ;
+					border-radius : 0 5px 5px 0 ;
+					cursor : pointer ;
+					position : relative ;
+					padding : 7px ;
+					font-family : sans-serif ;
+					border : none ;
+					font-size : 16px ;
+				}
+				
+			</style>
+		   
+		   <script>
+				alert("Payment Gateway page is loaded!!");
+				document.write(Date());
+		   </script>
+    </head>
+    
+	<!--content-->
+
+	<div class="details">
+		<br/> <br/>
+			<h2> Please Enter Your Payment Details : </h2>
+			<br/>
+			<form method = "post">
+				<fieldset>
+					<legend> Payment Details : </legend>
+					
+					<label for = "type"> Bill Type : </label> <br/>
+					<select name = "type" placeholder = "Choice Bill Type">
+						<!--<option value = "heading"> ** Choose Bill Type ** </option>-->
+						<option value = "electricity"> Electricity Bill </option>
+						<option value = "water"> Water Bill </option>
+						<option value = "mobile"> Mobile Bill </option>
+						<option value = "internet"> Internet Bill </option>
+						<option value = "insurance"> Insuarance Bill </option>
+						<option value = "tax"> Tax Bill </option>
+					</select> <br/> <br/>
+					
+					<label for = "accNo"> Account Number : </label> <br/>
+					<input type = "number" id = "accNo" name = "accNo"> <br/> <br/>
+					
+					<label for = "amount"> Transaction Amount : </label> <br/>
+					<input type = "text" id = "amount" name = "amount"> <br/> <br/>
+					
+					<center><div class = "newslayout">
+						<input class = "bttn" type = "submit" id = "btn1" value = "Proceed" onclick = "loadData('btn1')"> 
+					</center></div>
+					
+				</fieldset>
+			</form>
+
+	</div>
+			
+
+			
+			
+			
+			<!--footer-->
+			<div class="footer_container">
+				<div class="footer">
+					<div class="footer_heading footer_1">
+						<h2>About Us</h2>
+						<a href="#">Bio</a>
+						<a href="#">location</a>
+						<a href="#">Customers</a>
+						<a href="#">Invsters</a>
+						<a href="#">Terms of service</a>
+					</div>
+					<div class="footer_heading footer_2">
+						<h2>Contact Us</h2>
+						<a href="#">Support</a>
+						<a href="#">Contact</a>
+						<a href="#">Sponserships</a>
+						<a href="#">Jobs</a>
+					</div>
+					<div class="footer_heading footer_3">
+						<h2>Social Media</h2>
+						<a href="#">Instagram</a>
+						<a href="#">Facebook</a>
+						<a href="#">Youtube</a>
+						<a href="#">Twitter</a>
+					</div>
+					<div class="footer_email_form">
+						<h2>Give us a Feedback</h2>
+						<input type="email" placeholder="Enter Your Email Address" id="footer_email">
+						<input type="submit" value="Sign Up" id="footer_email_btn">
+					</div>
+				</div>
+			</div>
+		</body>
+		</html>

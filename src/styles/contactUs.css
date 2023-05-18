@@ -1,0 +1,44 @@
+/*Content*/
+
+div.newlayout{
+	border:3px solid purple;
+	margin:25px 20px 20px 20px;
+}
+
+.bttn {
+	margin:8px 4px 4px 4px;
+	width:210px;
+	height:50px;
+	background-color:#333366;
+	font-size:18px;
+	font-weight:bold;
+	padding:3px;
+	border:none;
+	color:white;
+	float:center;
+}
+
+.text1 {
+	font-size:25px;
+	font-family:Georgia, serif;
+	letter-spacing:1px;
+	word-spacing:3px;
+	color:#000000;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	font-variant:normal;
+	text-transform:none;
+}
+
+#about{
+	font-size:30px;
+	text-align:center;
+	color:#273746;
+}
+
+#about1 {
+	font-size:24px;
+	text-align:center;
+}
+	

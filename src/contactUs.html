@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+		   <meta charset = "UTF-8">
+		   <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+           <title> Pay BILL </title>
+           <link rel = "stylesheet" href = "styles/contactUs.css">
+		   <link rel = "stylesheet" href = "styles/formStyles.css">
+		   <link rel = "stylesheet" href = "styles/header_footer.css">
+		   <script src = "js/contactUs.js"> </script>
+		   
+		   <script>
+				alert("Coctact Us page is loaded!!");
+		   </script>
+    </head>
+    <body>
+	<!--Navigation Bar Starts-->
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>PAY<span>BILL</span></h1>
+            </div> 
+            <ul class="navigation">
+                <a href="./Home.html"><li>Home</li></a>
+                <a href="./PayService.html"><li>Services</li></a>
+                <a href="./PayDetail.html"><li>Payments</li></a>
+                <a href="./Remainders.html"><li>Reminders</li></a>
+                <a href="./About us.html"><li>About Us</li></a>
+                <a href="./contactUs.html"><li>Contact Us</li></a>
+                <a href="./Login.html"><li><button>Login</button></li></a>
+                <a href="./Signup.html"><li><button>Sign Up</button></li></a>
+            </ul>
+        </div>
+    </div>
+    <!--Navigation Bar Ends-->
+           
+			
+			<!--content-->
+			<br/> <br/>
+			<p id = "about1"> Pay BILL is the largest online bill and event reminder resource web site in SriLanka.  We provide various bill payments and their reminders. Also we provide to make events and their reminders.</p>
+			<br/> <br/>
+			<form method = "post">
+				<fieldset>
+					<legend> Enter Your Issues: </legend>
+					
+					<label for = "name"> Full name : </label> <br/>
+					<input type = "text" id = "name" name = "name" placeholder = "Enter Full Name"> <br/> <br/>
+					
+					<label for = "email"> Email : </label> <br/>
+					<input type = "email" id = "email" name = "email" placeholder = "Enter Your email Address"> <br/> <br/>
+					
+					<label for = "subject"> Subject : </label> <br/>
+					<input type = "text" id = "subject" name = "subject" placeholder = "Enter Subject"> <br/> <br/>
+					
+					<label for = "help"> How can we help you ? </label> <br/>
+					<textarea name = "help" rows = "10" cols = "120">  </textarea> <br/> <br/>
+					
+					<center> <input type = "submit" name = "submit" value = "Submit"> 
+							 <input type = "reset" name = "reset" value = "Reset">
+					</center>
+					
+				</fieldset>
+			</form> <br/>
+			
+			<p id = "about"> <b> Are you Registered Customer : </b> </p>
+			<br/> <br/>
+			
+			<div class = "newslayout"> <center>
+				<button class = "bttn" type = "button" id = "btn1" onclick = "loadData('btn1')"> Yes </button>
+				<button class = "bttn" type = "button" id = "btn2" onclick = "loadData('btn2')"> No </button>
+			</center></div>
+			<br/> <br/> <br/>
+			<center> <p class = "txt1" id = "about"> Thanks for your responces. </center></p>
+			
+			<!--Footer Starts-->
+		<div class="footer_container">
+			<div class="footer">
+				<div class="footer_heading footer_1">
+					<h2>About Us</h2>
+					<a href="#">Blog</a>
+					<a href="#">Demo</a>
+					<a href="#">Customers</a>
+					<a href="#">Invsters</a>
+					<a href="#">Terms of search</a>
+				</div>
+				<div class="footer_heading footer_2">
+					<h2>Contact Us</h2>
+					<a href="#">Jobs</a>
+					<a href="#">Support</a>
+					<a href="#">Contact</a>
+					<a href="#">Sponser</a>
+				</div>
+				<div class="footer_heading footer_3">
+					<h2>Social Media</h2>
+					<a href="#">Instagram</a>
+					<a href="#">Facebook</a>
+					<a href="#">Youtube</a>
+					<a href="#">Twitter</a>
+				</div>
+				<div class="footer_email_form">
+					<h2>Join our news letter</h2>
+					<input type="email" placeholder="Enter Your Email Address" id="footer_email">
+					<input type="submit" value="Sign Up" id="footer_email_btn">
+				</div>
+			</div>
+		</div>
+		<!--footer ends-->
+			
+			
+      </body>
+  <html>
